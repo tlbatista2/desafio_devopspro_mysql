@@ -1,0 +1,1 @@
+docker run --name  docker_db -e MYSQL_DATABASE=docker_db  MYSQL_USER=docker_usr MYSQL_PASSWORD=docker_pwd -p 3306:3306 -d mysql:latest
